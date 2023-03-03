@@ -1,0 +1,25 @@
+/********************
+    * Colors
+********************/
+$co-main: #f00;
+
+/********************
+    * Font family
+********************/
+$ff-main: 'Roboto', sans-serif;
+
+/********************
+    * Font size
+********************/
+$fs-normal: 16px;
+$fs-small: 14px;
+
+/********************
+    * Font height
+********************/
+$fh-normal: 1.4em;
+
+/********************
+    * Default font
+********************/
+$fo-default: $fs-normal + / + $fh-normal $ff-main;
