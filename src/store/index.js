@@ -4,7 +4,8 @@ import axios from 'axios'
 
 export default createStore({
 	state: {
-		map_data:                 [
+		emission: 0,
+		map_data: [
 			{
 			  "country": "Afghanistan",
 			  "code": "AF",
@@ -2439,20 +2440,21 @@ export default createStore({
 			  "regions": [
 				"M1090.6 227.2l-0.8 1.4-1.4 0.6-0.4-1.2-1.9 3.1 0.5 2.1-1.1-0.5-1.7-2.1-2.3-1.3 0.5-1 0.4-3.5 1.6-1.5 0.9-0.6 1.4 1.1 0.9 0.9 1.7 0.7 2.1 1.3-0.4 0.5z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Apex Corporation",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "ME"
 				},
 				{
 				  "name": "Sapphire Holdings",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "ME"
 				},
 				{
 				  "name": "Velocity Systems",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "ME"
 				}
 			  ]
@@ -2977,20 +2979,21 @@ export default createStore({
 			  "regions": [
 				"M1178.3 293.8l0.4 4-0.6 1.9-2.5 0.8 0.1-1.7 1.3-0.9-1.5-0.7 0.7-4.2 2.1 0.8z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Apexwise",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "PS"
 				},
 				{
 				  "name": "Group One Inc.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "PS"
 				},
 				{
 				  "name": "Bliesgau & Co.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "PS"
 				}
 			  ]
@@ -3376,20 +3379,21 @@ export default createStore({
 			  "regions": [
 				"M1161.7 667.7l0.6 2.9 0.3 2.9-1.4 2.8-3.2 0.7-3.1-3.5 0.1-2.2 1.7-2.4 0.6-1.9 1.7-0.4 2.7 1.1z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Solaris Innovations",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "SZ"
 				},
 				{
 				  "name": "Titan Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "SZ"
 				},
 				{
 				  "name": "Nexus Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "SZ"
 				}
 			  ]
@@ -3926,20 +3930,21 @@ export default createStore({
 			  "regions": [
 				"M1097.8 230.8l-1.2 0.3-2.9 1-0.1 1.3-0.7-0.1-0.6-2.3-1.3-0.7-1.2-1.7 0.8-1.4 1.2-0.4 0.5-2.1 0.9-0.4 0.8 0.9 1 0.4 0.8 1 0.9 0.3 1.1 1.2 0.7-0.1-0.4 1.6-0.6 0.7 0.3 0.5z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Traumleben",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "XK"
 				},
 				{
 				  "name": "Blue Horizon Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "XK"
 				},
 				{
 				  "name": "Intellitrix",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "XK"
 				}
 			  ]
@@ -4272,20 +4277,21 @@ export default createStore({
 				"M 27.7 593.3 27.4 593.7 27.2 594 27 594.1 26.6 593.8 26.8 593.6 27.1 593.6 27.2 593.4 27.7 593.3 Z",
 				"M 34.3 593.3 33.8 593.4 33.7 593.2 34.1 593.1 34.3 593.3 Z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Bright Ideas LLC",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "AS"
 				},
 				{
 				  "name": "Traumgarten",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "AS"
 				},
 				{
 				  "name": "Luminary Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "AS"
 				}
 			  ]
@@ -4389,20 +4395,21 @@ export default createStore({
 			  "regions": [
 				"M635.2 387l-0.1-0.3 0.3 0.1-0.2 0.2z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Black Rock Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BL"
 				},
 				{
 				  "name": "Swift Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BL"
 				},
 				{
 				  "name": "Blue Water Holdings",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BL"
 				}
 			  ]
@@ -4667,20 +4674,21 @@ export default createStore({
 				"M 958.1 108.3 957.8 108.7 957.5 108.5 957.2 108.5 957.4 108.2 957.3 107.8 957.4 107.7 957.6 108.1 958.1 108.3 Z",
 				"M 957.2 108.3 957 108.3 956.8 107.9 956.9 107.6 957.1 108 957.2 108.3 Z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Digital Innovations Corp.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "FO"
 				},
 				{
 				  "name": "Oceanic Holdings",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "FO"
 				},
 				{
 				  "name": "Diamond Industries",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "FO"
 				}
 			  ]
@@ -4693,20 +4701,21 @@ export default createStore({
 				"M 1881.2 457.1 1881.6 457.1 1881.9 457.3 1882 457.7 1881.8 457.8 1881.9 458 1881.8 458.2 1881.2 458.2 1881 458 1881 457.8 1880.8 457.5 1880.8 457.2 1881.2 457.1 Z",
 				"M 1766.5 440.5 1766.6 440.8 1766.3 440.8 1766 441.3 1765.9 441.2 1766.2 440.4 1766.6 440.3 1766.5 440.5 Z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Nextgenius",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "FM"
 				},
 				{
 				  "name": "Ahornwald & Co.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "FM"
 				},
 				{
 				  "name": "Coastal Ventures",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "FM"
 				}
 			  ]
@@ -4742,20 +4751,21 @@ export default createStore({
 			  "regions": [
 				"M1800.8 415.5l-0.1 0.4 0 0.6-0.1 0.3-0.3 0-0.2-0.3-0.1-0.5 0-0.5 0.6-0.5 0.1-0.2 0.1-0.5 0.2-0.1 0.1 0.2 0.4 0.1-0.2 0.5-0.5 0.5z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Visionenreich",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "GU"
 				},
 				{
 				  "name": "Infinity Innovations",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "GU"
 				},
 				{
 				  "name": "Phoenix Holdings",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "GU"
 				}
 			  ]
@@ -4817,20 +4827,21 @@ export default createStore({
 			  "regions": [
 				"M634.2 386l-0.4-0.1 0.2-0.3 0.3-0.1-0.1 0.5z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Ansbacher & Söhne",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MF"
 				},
 				{
 				  "name": "Traumzeit",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MF"
 				},
 				{
 				  "name": "Apex Innovations Inc.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MF"
 				}
 			  ]
@@ -4866,20 +4877,21 @@ export default createStore({
 			  "regions": [
 				"M1953.8 456l1 0.4-0.2 0-0.8-0.4z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Prime Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MH"
 				},
 				{
 				  "name": "Hammerstein & Partner",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MH"
 				},
 				{
 				  "name": "Meisterplan",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MH"
 				}
 			  ]
@@ -4921,20 +4933,21 @@ export default createStore({
 				"M 1800.7 385.9 1800.6 385.7 1800.6 385.2 1800.9 385.1 1801.1 385.4 1800.7 385.9 Z",
 				"M 1799.5 381.6 1799.1 381.5 1799.1 381.2 1799.3 381.1 1799.5 381.3 1799.5 381.6 Z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Nextbeacon",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MP"
 				},
 				{
 				  "name": "Terra Innovations",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MP"
 				},
 				{
 				  "name": "Phoenix Innovations Inc.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MP"
 				}
 			  ]
@@ -4945,20 +4958,21 @@ export default createStore({
 			  "regions": [
 				"M638.2 393.9l0.2 0.4 0 0.3-0.2 0.2-0.2-0.1-0.1-0.3 0.3-0.5z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Schneckenberg Solutions",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MS"
 				},
 				{
 				  "name": "Stonebridge Innovations Inc.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MS"
 				},
 				{
 				  "name": "Hammerstein & Partner",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "MS"
 				}
 			  ]
@@ -5027,20 +5041,21 @@ export default createStore({
 			  "regions": [
 				"M1933 505.3l-0.2 0-0.1-0.3 0.3 0 0 0.3z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Mercury Holdings",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "NR"
 				},
 				{
 				  "name": "Sunrise Innovations",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "NR"
 				},
 				{
 				  "name": "Horizon Enterprises Inc.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "NR"
 				}
 			  ]
@@ -5225,20 +5240,21 @@ export default createStore({
 			  "regions": [
 				"M634.2 386l0 0.1-0.4-0.1 0-0.1 0.4 0.1z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Velocity Innovations",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "SX"
 				},
 				{
 				  "name": "Innoventix",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "SX"
 				},
 				{
 				  "name": "Innovativ",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "SX"
 				}
 			  ]
@@ -5358,20 +5374,21 @@ export default createStore({
 			  "regions": [
 				"M1998.9 556.6l0-0.2 0.1 0 0 0.1-0.1 0.1z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "SeaBreeze Holdings",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "TV"
 				},
 				{
 				  "name": "Orion Ventures",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "TV"
 				},
 				{
 				  "name": "Nova Innovations",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "TV"
 				}
 			  ]
@@ -5434,20 +5451,21 @@ export default createStore({
 				"M 625.2 384 625 384.2 624.5 384.2 624.5 384 624.8 383.9 625.2 384 Z",
 				"M 623.8 383.8 624.2 384.1 624 384.3 623.7 384.1 623.2 384.1 623.4 383.9 623.8 383.8 Z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Ridgecrest Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "VI"
 				},
 				{
 				  "name": "Sternenlicht",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "VI"
 				},
 				{
 				  "name": "Orion Innovations",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "VI"
 				}
 			  ]
@@ -5526,20 +5544,21 @@ export default createStore({
 			  "regions": [
 				"M602 424.6l-0.2 0-0.1-0.5 0.1-0.3-0.1-0.3-0.4-0.1-0.3-0.3 0.1-0.3 1.2 0.6-0.1 0.2 0 0.4-0.2 0.2 0 0.4z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Solaris Innovations",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQBO"
 				},
 				{
 				  "name": "Sternenlicht",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQBO"
 				},
 				{
 				  "name": "Sparkle Holdings",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQBO"
 				}
 			  ]
@@ -5550,20 +5569,21 @@ export default createStore({
 			  "regions": [
 				"M634.3 389.6l-0.2 0.1 0-0.2 0.1-0.1 0.1 0.2z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Renewal Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQSE"
 				},
 				{
 				  "name": "Globaltech",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQSE"
 				},
 				{
 				  "name": "Quantumtech",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQSE"
 				}
 			  ]
@@ -5574,20 +5594,21 @@ export default createStore({
 			  "regions": [
 				"M632.8 388.7l-0.1 0 0.1-0.2 0.1 0.1-0.1 0.1z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Centurion Group",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQSA"
 				},
 				{
 				  "name": "Silver Star Enterprises Inc.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQSA"
 				},
 				{
 				  "name": "Majestic Enterprises",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "BQSA"
 				}
 			  ]
@@ -5629,20 +5650,21 @@ export default createStore({
 				"M 888.8 316.7 889.1 316.6 889.3 316.9 889.5 317.4 889.3 317.7 889.4 318.1 888.8 319.1 888.7 319 888.6 318.6 888.2 317.7 888.1 317.4 888 317.2 888.2 316.8 888.5 316.6 888.8 316.7 Z",
 				"M 912.9 314.7 912.9 315.1 912.7 315.6 912 316.1 911.5 316.2 911.1 316.7 910.6 316.5 910.6 316.4 910.8 316 910.8 315.6 911 315.3 911.3 315.1 911.6 315.1 911.9 314.8 912.4 314.8 912.5 314.7 912.7 314.2 912.9 314.1 913.1 314.3 912.9 314.7 Z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Westerwald Consulting",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "IC"
 				},
 				{
 				  "name": "Intellitronixtech",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "IC"
 				},
 				{
 				  "name": "Envision Enterprises Inc.",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "IC"
 				}
 			  ]
@@ -5653,20 +5675,21 @@ export default createStore({
 			  "regions": [
 				"M1240.2 583.1l0.2 0.3 0.5 0.2 0 0.3-0.2 0.2 0.1 0.2-0.3 0.6 0.1 0.2-0.3 0.1-0.2-0.3 0-0.3 0.2-0.2-0.2-0.7-0.1-0.1-0.1-0.2 0.3-0.3z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Falkenstein Solutions",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "YT"
 				},
 				{
 				  "name": "Strahlenglanz",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "YT"
 				},
 				{
 				  "name": "Pacific Crest Industries",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "YT"
 				}
 			  ]
@@ -5677,20 +5700,21 @@ export default createStore({
 			  "regions": [
 				"M1295 635.8l0.4 0 0.4 0.2 0.3 0.3 0 0.3 0.1 0.5 0.3 0.2 0.2 0.2 0.1 0.2-0.2 0.6-0.1 0.4-0.2 0.2-0.4 0.1-0.9 0-0.2-0.2-0.8-0.4-0.3-0.5 0-0.3-0.3-0.6 0.1-0.4 0.2-0.2 0.2-0.4 0.1 0 0.5-0.2 0.5 0z"
 			  ],
+			  "emission": 0,
 			  "companies": [
 				{
 				  "name": "Innovision",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "RE"
 				},
 				{
 				  "name": "Nova Systems",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "RE"
 				},
 				{
 				  "name": "Nextaccel",
-				  "emission": "NaN",
+				  "emission": 0,
 				  "country": "RE"
 				}
 			  ]
@@ -7425,17 +7449,17 @@ export default createStore({
 			},
 			{
 			  "name": "Apex Corporation",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "ME"
 			},
 			{
 			  "name": "Sapphire Holdings",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "ME"
 			},
 			{
 			  "name": "Velocity Systems",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "ME"
 			},
 			{
@@ -7935,17 +7959,17 @@ export default createStore({
 			},
 			{
 			  "name": "Apexwise",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "PS"
 			},
 			{
 			  "name": "Group One Inc.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "PS"
 			},
 			{
 			  "name": "Bliesgau & Co.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "PS"
 			},
 			{
@@ -8175,17 +8199,17 @@ export default createStore({
 			},
 			{
 			  "name": "Solaris Innovations",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "SZ"
 			},
 			{
 			  "name": "Titan Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "SZ"
 			},
 			{
 			  "name": "Nexus Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "SZ"
 			},
 			{
@@ -8235,17 +8259,17 @@ export default createStore({
 			},
 			{
 			  "name": "Traumleben",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "XK"
 			},
 			{
 			  "name": "Blue Horizon Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "XK"
 			},
 			{
 			  "name": "Intellitrix",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "XK"
 			},
 			{
@@ -8265,17 +8289,17 @@ export default createStore({
 			},
 			{
 			  "name": "Bright Ideas LLC",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "AS"
 			},
 			{
 			  "name": "Traumgarten",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "AS"
 			},
 			{
 			  "name": "Luminary Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "AS"
 			},
 			{
@@ -8580,17 +8604,17 @@ export default createStore({
 			},
 			{
 			  "name": "Black Rock Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BL"
 			},
 			{
 			  "name": "Swift Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BL"
 			},
 			{
 			  "name": "Blue Water Holdings",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BL"
 			},
 			{
@@ -8715,122 +8739,122 @@ export default createStore({
 			},
 			{
 			  "name": "Digital Innovations Corp.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "FO"
 			},
 			{
 			  "name": "Oceanic Holdings",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "FO"
 			},
 			{
 			  "name": "Diamond Industries",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "FO"
 			},
 			{
 			  "name": "Nextgenius",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "FM"
 			},
 			{
 			  "name": "Ahornwald & Co.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "FM"
 			},
 			{
 			  "name": "Coastal Ventures",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "FM"
 			},
 			{
 			  "name": "Visionenreich",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "GU"
 			},
 			{
 			  "name": "Infinity Innovations",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "GU"
 			},
 			{
 			  "name": "Phoenix Holdings",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "GU"
 			},
 			{
 			  "name": "Ansbacher & Söhne",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MF"
 			},
 			{
 			  "name": "Traumzeit",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MF"
 			},
 			{
 			  "name": "Apex Innovations Inc.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MF"
 			},
 			{
 			  "name": "Prime Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MH"
 			},
 			{
 			  "name": "Hammerstein & Partner",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MH"
 			},
 			{
 			  "name": "Meisterplan",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MH"
 			},
 			{
 			  "name": "Nextbeacon",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MP"
 			},
 			{
 			  "name": "Terra Innovations",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MP"
 			},
 			{
 			  "name": "Phoenix Innovations Inc.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MP"
 			},
 			{
 			  "name": "Schneckenberg Solutions",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MS"
 			},
 			{
 			  "name": "Stonebridge Innovations Inc.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MS"
 			},
 			{
 			  "name": "Hammerstein & Partner",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "MS"
 			},
 			{
 			  "name": "Mercury Holdings",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "NR"
 			},
 			{
 			  "name": "Sunrise Innovations",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "NR"
 			},
 			{
 			  "name": "Horizon Enterprises Inc.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "NR"
 			},
 			{
@@ -8925,32 +8949,32 @@ export default createStore({
 			},
 			{
 			  "name": "Velocity Innovations",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "SX"
 			},
 			{
 			  "name": "Innoventix",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "SX"
 			},
 			{
 			  "name": "Innovativ",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "SX"
 			},
 			{
 			  "name": "SeaBreeze Holdings",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "TV"
 			},
 			{
 			  "name": "Orion Ventures",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "TV"
 			},
 			{
 			  "name": "Nova Innovations",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "TV"
 			},
 			{
@@ -8970,107 +8994,107 @@ export default createStore({
 			},
 			{
 			  "name": "Ridgecrest Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "VI"
 			},
 			{
 			  "name": "Sternenlicht",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "VI"
 			},
 			{
 			  "name": "Orion Innovations",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "VI"
 			},
 			{
 			  "name": "Solaris Innovations",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQBO"
 			},
 			{
 			  "name": "Sternenlicht",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQBO"
 			},
 			{
 			  "name": "Sparkle Holdings",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQBO"
 			},
 			{
 			  "name": "Renewal Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQSE"
 			},
 			{
 			  "name": "Globaltech",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQSE"
 			},
 			{
 			  "name": "Quantumtech",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQSE"
 			},
 			{
 			  "name": "Centurion Group",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQSA"
 			},
 			{
 			  "name": "Silver Star Enterprises Inc.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQSA"
 			},
 			{
 			  "name": "Majestic Enterprises",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "BQSA"
 			},
 			{
 			  "name": "Westerwald Consulting",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "IC"
 			},
 			{
 			  "name": "Intellitronixtech",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "IC"
 			},
 			{
 			  "name": "Envision Enterprises Inc.",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "IC"
 			},
 			{
 			  "name": "Falkenstein Solutions",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "YT"
 			},
 			{
 			  "name": "Strahlenglanz",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "YT"
 			},
 			{
 			  "name": "Pacific Crest Industries",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "YT"
 			},
 			{
 			  "name": "Innovision",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "RE"
 			},
 			{
 			  "name": "Nova Systems",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "RE"
 			},
 			{
 			  "name": "Nextaccel",
-			  "emission": "NaN",
+			  "emission": 0,
 			  "country": "RE"
 			}
 		  ]
