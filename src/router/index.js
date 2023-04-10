@@ -7,6 +7,16 @@ const routes = [
 		path: '/',
 		name: 'Home',
 		component: () => import('@/views/Home.vue'),
+	},
+	{ // About
+		path: '/about',
+		name: 'About',
+		component: () => import('@/views/About.vue'),
+	},
+	{ // Imprint
+		path: '/imprint',
+		name: 'Imprint',
+		component: () => import('@/views/Imprint.vue'),
 	}
 ]
 
